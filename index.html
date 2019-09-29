@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Nathaniel Higgins</title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <nav>
+        <div id="logoContainer">
+        </div>
+        <div class="navigation">
+            <a href="https://drive.google.com/open?id=1_N-IKszeNelzpodwW2H0z24NzfVXCXK8" class="navLinkTo">Case Studies</a>
+            <a href="https://nhiggins14.github.io/HW-MyFirstLayout/" class="navLinkTo">About Me</a>
+            <button id="hireButton">
+                <h2>Hire Me</h2>
+            </button>
+        </div>
+
+        <div id="nathFaceContainer">
+            <div class="nathFace"></div>
+        </div>
+        <hr class="bigLineRight"> 
+    </nav>
+
+    <!-- About Me Stuff -->
+
+    <section class="midSection">
+        <hr id="leftLineAbout">
+        <div class="whoAmI">
+            <div class="journeySkills">
+                <ul class="nav nav-tabs" id="myTab" role="tablist">
+                    <li class="nav-item navItem">
+                        <a class="nav-link active myJourney" id="home-tab" data-toggle="tab" href="#home" role="tab"
+                            aria-controls="home" aria-selected="true" style="font-size: 2em">My Journey</a>
+                    </li>
+                    <li class="nav-item navItem">
+                        <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab"
+                            aria-controls="profile" aria-selected="false" style="font-size: 2em">Skillsets</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active myContent bodyCopy" id="home" role="tabpanel" aria-labelledby="home-tab">I
+                    have always had the attitude that tech shouldn’t be alienating, but should be inclusive and empower
+                    individuals to take whatever they are passionate about to the next level. I’ve witness many a
+                    Luddite rebuke powerful tools at their disposal due to feeling overwhelmed and intimidated. Users
+                    should never feel like their tech is working against them or questioning their intelligence. It’s
+                    the duty of good UX to break down barriers and make tech make sense.
+
+                    <br><br>I was immediately intrigued when I first learned of the field of UX. It combines my empathy
+                    for making tech more accessible, my passion for researching subject matter soup to nuts, and my
+                    desire to inject more creativity from my musically inclined personal life into my work life. I
+                    believe UX can better the world one strategically placed button at a time. </div>
+                <div class="tab-pane fade myContent bodyCopy" id="profile" role="tabpanel" aria-labelledby="profile-tab">Lorem
+                    ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
+                    aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
+                    culpa qui officia deserunt mollit anim id est laborum.</div>
+            </div>
+        </div>
+        </div>
+        <hr id="rightLineAbout">
+        <hr class="bigLineLeft">  
+    </section>
+
+
+    <!-- Case Studies test-->
+  
+<div id="caseStudyWrapper">
+    <h2 id="caseStudy">Case Studies</h2>
+</div>
+    <div class="grid">
+        <div class="UX gridItem">
+            <a href="https://docs.google.com/presentation/d/10nkkSZ9FvXOfY2xL6EX0t8CfxsEfSNDOLs2S-wDjmD4/edit?usp=sharing" class="UX-UItitle">UX</a>
+            </div>
+        <div class="UI gridItem">
+            <a href="https://docs.google.com/presentation/d/1Px9u9ypoWqQbq79b68mYqcx8Ep2bE660iGjfZMzliJU/edit?usp=sharing" class="UX-UItitle">UI</a>
+        </div>
+    </div></div>
+
+
+
+<!-- bottom image -->
+    <div class="flexBoxBottom">
+            <img src="images/StarsLeft.png" class="starsCont starsLeft">
+        <div class="bigHead">
+            <img src="images/HireMeFace.png">
+            <button class="hireButton">
+                <h2>Hire</h2>
+                <h2>Me</h2>
+            </button>
+        </div>
+        <img src="images/StarsRight.png" class="starsCont starsRight">
+    </div>
+
+
+    <!-- footer -->
+    <div class="footer">
+        <hr class="line">
+        <div class="footerLinks">
+        <a href="https://drive.google.com/open?id=1_N-IKszeNelzpodwW2H0z24NzfVXCXK8" class="footerCase">Case Studies</a>
+        <a href="https://nhiggins14.github.io/HW-MyFirstLayout/" class="footerAboutMe">About Me</a>
+    </div>
+    </div>
+
+
+
+
+
+
+
+
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
